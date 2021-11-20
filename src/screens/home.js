@@ -118,14 +118,14 @@ function Home() {
        </div>
        <div className="">
           {/* <h1 className="font-bold">Section 3.</h1> */}
+            {/* <p>this is a test content</p>
             <p>this is a test content</p>
             <p>this is a test content</p>
             <p>this is a test content</p>
             <p>this is a test content</p>
             <p>this is a test content</p>
             <p>this is a test content</p>
-            <p>this is a test content</p>
-            <p>this is a test content</p>
+            <p>this is a test content</p> */}
        </div>
     </div>
     <BottomNav/>
