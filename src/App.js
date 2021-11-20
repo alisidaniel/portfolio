@@ -1,18 +1,17 @@
 import logo from './logo.svg';
-import './App.css';
-import TopNav from './navigation/topnav';
-import BottomNav from './navigation/bottomnav';
+import Navbar from './navigation/Navbar';
+import "./App.css";
+import { Link, Route, Routes, BrowserRouter } from 'react-router-dom';
+import Home from './screens/home';
+
 
 function App() {
   return (
-    <section className="h-screen bg-gray-100">
-       <TopNav />
-       <div className="">
-      
-       
-       </div>
-       <BottomNav />
-    </section>
+   <BrowserRouter>
+      <Routes>
+          <Route path="/" element={<Home />} />
+      </Routes>
+   </BrowserRouter>
   );
 }
 
