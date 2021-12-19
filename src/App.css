@@ -3,6 +3,10 @@
   height: 100%;
 }
 
+.text-body {
+  color: #66ffcc;
+}
+
 .tag {
   text-align: center;
   width: 50%;

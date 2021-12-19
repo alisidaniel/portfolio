@@ -19,11 +19,7 @@ import BottomNav from '../navigation/bottomnav';
 function Home() {
   return (
     <section className="h-screen w-full body text-white">
-       {/* <Navbar /> */}
-     <div>
-         Top Nav
-
-     </div>
+       <Navbar />
      <div className="mt-24">
           <div className="ml-80 mr-80 py-10 py-3">
             <h1 className="font-bold text-4xl opacity-80 mb-8">Hi,</h1>
@@ -115,17 +111,6 @@ function Home() {
                     </a>
                 </div>
           </div>
-       </div>
-       <div className="">
-          {/* <h1 className="font-bold">Section 3.</h1> */}
-            {/* <p>this is a test content</p>
-            <p>this is a test content</p>
-            <p>this is a test content</p>
-            <p>this is a test content</p>
-            <p>this is a test content</p>
-            <p>this is a test content</p>
-            <p>this is a test content</p>
-            <p>this is a test content</p> */}
        </div>
     </div>
     <BottomNav/>
