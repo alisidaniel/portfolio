@@ -21,14 +21,14 @@ function Home() {
     <section className="h-screen w-full body text-white">
        <Navbar />
      <div className="mt-24">
-          <div className="ml-80 mr-80 py-10 py-3">
+          <div className="ml-80 mr-80 py-6">
             <h1 className="font-bold text-4xl opacity-80 mb-8">Hi,</h1>
             <p className="opacity-80 text-lg leading-8 md:text-xl">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
             </p>
-            <div className="flex justify-center space-x-4 mt-6">
+            <div className="flex justify-center space-x-4 mt-8">
               <button className="bg-blue-500 p-2 px-10 font-bold rounded-sm hover:bg-blue-400">
                 <a className="flex space-x-2" href="https://github.com/alisidaniel" rel="noreferrer" target="_blank">
                     <GitHub color="white" />
@@ -113,7 +113,9 @@ function Home() {
           </div>
        </div>
     </div>
-    <BottomNav/>
+    <div className="mt-10">
+        <BottomNav/>
+    </div>
     </section>
   );
 }
