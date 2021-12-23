@@ -7,12 +7,20 @@
   color: #66ffcc;
 }
 
+.bg-outline {
+  border: 2px solid #66ffcc;
+}
+
 .tag {
   text-align: center;
   width: 50%;
   border: 3px solid red;
   flex-direction: row;
   justify-content: center;
+}
+.section {
+  height: 100vh;
+  margin-top: 10px;
 }
 .footer {
   background-color: #2a2a2a;

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import { links } from '../constants/navlinks';
 
 const Navbar = () => {
     return (
@@ -8,11 +9,9 @@ const Navbar = () => {
             <div>
                 <p className="font-bold text-2xl text-body opacity-80">DA</p>
             </div>
-            <div className="">
-                <Link className="font-bold hover:bg-gray-300 hover:text-black rounded-lg p-2" to="/"> Home</Link>
-                <Link className="font-bold hover:bg-gray-300 hover:text-black rounded-lg p-2" to="/about"> About</Link>
-                <Link className="font-bold hover:bg-gray-300 hover:text-black rounded-lg p-2" to="/resume"> Resume</Link>
-                <Link className="font-bold hover:bg-gray-300 hover:text-black rounded-lg p-2" to="/contact">Contact</Link>
+            <div className="px-2">
+                {links.map((e,i) => <Link className="rounded-lg px-3 py-2 capitalize" key={i} to={e.url}>{e.text}</Link>)}
+                <Link className="bg-outline rounded-lg px-3 py-2" to="#"> Resume</Link>
             </div>
         </div>
     )

@@ -5,18 +5,18 @@ import "../App.css";
 
 const BottomNav = () => {
     return (
-        <footer className="relative w-full h-36 p-4 border-solid py-3 lg:py-8 xl:py-10 text-center bottom-0 footer rounded-t-full">
+        <footer className="relative w-full border-solid py-2 lg:py-8 xl:py-8 text-center bottom-0 footer">
           <div className='ml-80 mr-80'>
-                <div className='mb-6'>
-                   <p className='opacity-80 text-md'>Designed & Built with &#10084;&#65039; by Daniel Alisi</p>
-               </div>
-           <div className='flex justify-center'>
-               <div className="flex flex-row space-x-3 bottom-0">
+           <div className='flex justify-center mb-2'>
+               <div className="flex flex-row space-x-3">
                    <Link to={{pathname: "https://twitter.com/alisidaniel"}} target="_blank"> <Twitter/></Link>
                    <Link to={{pathname: "https://www.linkedin.com/in/daniel-alisi-852720143/"}} target="_blank"><Linkedin/></Link>
                    <Link to={{pathname: "https://www.instagram.com/alisidaniel/"}} target="_blank"> <Instagram/></Link>
                </div>
            </div>
+            <div className=''>
+                   {/* <p className='opacity-80 text-md'>Designed & Built with &#10084;&#65039; by Daniel Alisi</p> */}
+               </div>
            </div>
         </footer>
     )
