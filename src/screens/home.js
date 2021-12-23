@@ -19,7 +19,7 @@ import BottomNav from '../navigation/bottomnav';
 function Home() {
   return (
     <main className="h-screen w-full body text-white" id="about">
-       <Navbar />
+    <Navbar />
     <section className="ml-52 mr-52">
         <h1 className="text-1xl opacity-80 mb-4">Hi, my name is</h1>
         <h3 className='text-gray-100 text-6xl font-medium mb-3'>Daniel Alisi.</h3>
@@ -47,7 +47,7 @@ function Home() {
         <p>projects section</p>
     </section>
 
-    <section className="ml-56 mr-56" id="tools">
+    <section className="ml-56 mr-56" id="topskills">
         <h1 className="font-bold text-2xl text-center">
             <span className="border-b-2 border-yellow-300">Top Skills </span></h1>
             <div className="flex flex-row justify-around mt-4">

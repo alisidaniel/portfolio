@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .body {
   background-color: #414141;
   height: 100%;
@@ -24,4 +27,8 @@
 }
 .footer {
   background-color: #2a2a2a;
+}
+.sticky {
+  position: sticky;
+  top: 0;
 }
