@@ -6,6 +6,15 @@ html {
   height: 100%;
 }
 
+.nav {
+  padding-top: 20px;
+  height: 64px;
+  /* background-color: wheat; */
+}
+.navlink {
+  text-transform: capitalize;
+}
+
 .text-body {
   color: #66ffcc;
 }
