@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import Navbar from './navigation/Navbar';
+import React from 'react';
 import "./App.css";
 import { Link, Route, Routes, BrowserRouter } from 'react-router-dom';
 import Home from './screens/home';
 
-
-function App() {
+function App() { 
   return (
    <BrowserRouter>
       <Routes>
