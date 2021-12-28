@@ -1,10 +1,9 @@
 import React from 'react';
 import Navbar from '../navigation/Navbar';
 import "../App.css";
-import { AtSign, GitHub } from 'react-feather';
-import SideDrawer from '../navigation/SideDrawer';
+import { AtSign } from 'react-feather';
 
-// Images
+// images
 import logo from '../logo.svg';
 import node from "../assets/stacks/node.svg";
 import ts from "../assets/stacks/ts.svg";
@@ -20,9 +19,9 @@ import BottomNav from '../navigation/bottomnav';
 function Home() {
       
   return (
-    <main className="h-screen w-screen body text-white" id="about">
+    <main className="h-full w-screen body text-white" id="about">
     <Navbar />
-    {/* <section className="ml-52 mr-52">
+    <section className="lg:ml-48 lg:mr-48 p-3">
         <h1 className="text-1xl opacity-80 mb-4">Hi, my name is</h1>
         <h3 className='text-gray-100 text-6xl font-medium mb-3'>Daniel Alisi.</h3>
         <h4 className='mb-3 opacity-90 text-4xl mb-6'>I build things with my hands.</h4>
@@ -39,20 +38,22 @@ function Home() {
             </p>
             </a>
         </div>
-    </section> */}
-
-    {/* <section className='ml-52 mr-52 section bg-green-200' id="experience">
-        <p>Experience section</p>
     </section>
 
-    <section className='ml-52 mr-52 section bg-red-200' id="projects">
-        <p>projects section</p>
-    </section> */}
+    <section className='ml-48 mr-48 p-3 section' id="experience">
+        {/* <p>Coming soon</p> */}
+    </section>
 
-    {/* <section className="ml-56 mr-56" id="topskills">
+    <section className='ml-48 mr-48 p-3 section' id="projects">
+        {/* <p>Coming soon</p> */}
+    </section>
+
+    <section className="lg:ml-48 lg:mr-48 p-3" id="topskills">
         <h1 className="font-bold text-2xl text-center">
-            <span className="border-b-2 border-yellow-300">Top Skills </span></h1>
-            <div className="flex flex-row justify-around mt-4">
+            <span className="border-b-2 border-yellow-300">Top Skills </span>
+        </h1>
+        <div className="lg:grid lg:grid-cols-1 flex flex-row justify-center">
+            <div className="lg:flex lg:flex-row lg:justify-around mt-4">
                 <a href="https://nodejs.org/en/" rel="noreferrer" target="_blank">
                     <div className="flex flex-row space-x-1">
                         <img className="w-14 h-14" src={node} alt="Node" />
@@ -84,7 +85,7 @@ function Home() {
                     </div>
                 </a>
             </div>
-            <div className="flex flex-row justify-around mt-6">
+            <div className="lg:flex lg:flex-row lg:justify-around mt-6">
                 <a href="https://www.mysql.com/" rel="noreferrer" target="_blank">
                     <div className="flex flex-row space-x-1">
                         <img className="w-14 h-14" src={mysql} alt="mysql" />
@@ -115,17 +116,18 @@ function Home() {
                     <span className="mt-2 font-bold text-2xl">Laravel</span>
                 </div>
             </a>
-          </div>
-    </section> */}
+            </div>
+        </div>
+    </section>
 
 
-       {/* <section className='mr-52 ml-52 section bg-blue-200' id="contact">
-        <p>Contact</p>
-       </section> */}
+       <section className='mr-48 ml-48 p-3 section' id="contact">
+        {/* <p>Coming soon</p> */}
+       </section>
 
-        {/* <div className="mt-10">
+        <div className="">
             <BottomNav/>
-        </div> */}
+        </div>
     </main>
   );
 }
