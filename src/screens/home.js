@@ -26,9 +26,8 @@ function Home() {
         <h3 className='text-gray-100 text-6xl font-medium mb-3'>Daniel Alisi.</h3>
         <h4 className='mb-3 opacity-90 text-4xl mb-6'>I build things with my hands.</h4>
         <p className="opacity-80 text-lg leading-relaxed md:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, 
+            I’m focused on backend and cloud engineering, I'm open to work.
         </p>
         <div className="flex space-x-4 mt-8">
             <a className="bg-blue-500 p-3 px-8 font-bold rounded-sm hover:bg-blue-400" href="https://medium.com/@alisidaniel" rel="noreferrer" target="_blank">
