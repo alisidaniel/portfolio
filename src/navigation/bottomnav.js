@@ -1,5 +1,5 @@
 import React from 'react';
-import { Instagram, Linkedin, Twitter } from 'react-feather';
+import { Instagram, Linkedin, Twitter, GitHub } from 'react-feather';
 import { Link } from 'react-router-dom';
 import "../App.css";
 
@@ -9,6 +9,7 @@ const BottomNav = () => {
           <div className=''>
            <div className='flex justify-center mb-2'>
                <div className="flex flex-row space-x-3">
+                   <a className='text-gray-300' href='https://github.com/alisidaniel' rel='noreferrer' target="_blank"> <GitHub /></a>
                    <a className='text-gray-300' href='https://twitter.com/alisidaniel' rel='noreferrer' target="_blank"> <Twitter/></a>
                    <a className='text-gray-300' href='https://www.linkedin.com/in/daniel-alisi-852720143/' rel='noreferrer' target="_blank"><Linkedin/></a>
                    <a className='text-gray-300' href='https://www.instagram.com/alisidaniel/' rel='noreferrer' target="_blank"> <Instagram/></a>
