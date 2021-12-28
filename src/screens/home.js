@@ -19,7 +19,7 @@ import BottomNav from '../navigation/bottomnav';
 function Home() {
       
   return (
-    <main className="h-full w-screen body text-white" id="about">
+    <main className="w-screen body text-white" id="about">
     <Navbar />
     <section className="lg:ml-48 lg:mr-48 p-3">
         <h1 className="text-1xl opacity-80 mb-4">Hi, my name is</h1>
