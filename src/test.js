@@ -111,15 +111,32 @@ const add = age.reduce(function(a, b){ return a+b}, 0);
 //  })
 
 
- const http = require('http');
 
- const requestHeaders = function(req, res){
-     res.writeHead(200)
-     res.end('Hell world');
- }
+// Node Sever
 
- const server = http.createServer(requestHeaders);
+//  const http = require('http');
+
+//  const requestHeaders = function(req, res){
+//      res.writeHead(200)
+//      res.end('Hell world');
+//  }
+
+//  const server = http.createServer(requestHeaders);
  
- server.listen(5000, function(){
-     console.log('working here');
- });
+//  server.listen(5000, function(){
+//      console.log('working here');
+//  });
+
+
+// Emitters 
+const EventEmitter = require('events');
+
+class MyEmitter extends EventEmitter {}
+
+const myEmitter = new MyEmitter();
+
+myEmitter.on('event', () => {
+    console.log("an event occured");
+});
+
+myEmitter.emit('events');
