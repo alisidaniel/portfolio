@@ -26,22 +26,29 @@ function Home() {
         <h3 className='text-gray-100 text-6xl font-medium mb-3'>Daniel Alisi.</h3>
         <h4 className='mb-3 opacity-90 text-4xl mb-6'>I build things with my hands.</h4>
         <p className="opacity-80 text-lg leading-relaxed md:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, 
+            I’m focused on backend and cloud engineering, I'm open to work.
         </p>
         <div className="flex space-x-4 mt-8">
-            <a className="bg-blue-500 p-3 px-8 font-bold rounded-sm hover:bg-blue-400" href="https://medium.com/@alisidaniel" rel="noreferrer" target="_blank">
+            <a className="bg-blue-500 py-3 px-3 font-bold rounded-sm hover:bg-blue-400" href="https://medium.com/@alisidaniel" rel="noreferrer" target="_blank">
             <p className="flex space-x-2">
                 <AtSign color="white" />
-                <span>Articles</span>
+                <span></span>
             </p>
             </a>
         </div>
     </section>
 
-    <section className='ml-48 mr-48 p-3 section' id="experience">
-        {/* <p>Coming soon</p> */}
+    <section className='lg:ml-48 lg:mr-48 p-3' id="experience">
+        <div className='mt-4'>
+            <h4 className='text-gray-100 text-2xl font-medium'>Where I’ve Worked</h4>
+            <div className='pl-2 mt-3'>
+                <p className='opacity-90 leading-relaxed'>&#9962; 3T-Tech Group <i>Remote</i></p>
+                <p className='opacity-90 leading-relaxed'>&#128187; Kwivar <i>Onsite</i></p>
+                <p className='opacity-90 leading-relaxed'>&#128187; Nextpayday <i>Onsite</i></p>
+                <p className='opacity-90 leading-relaxed'>&#9962; House Africa <i>Remote</i></p>
+            </div>
+        </div>
     </section>
 
     <section className='ml-48 mr-48 p-3 section' id="projects">
@@ -121,8 +128,14 @@ function Home() {
     </section>
 
 
-       <section className='mr-48 ml-48 p-3 section' id="contact">
-        {/* <p>Coming soon</p> */}
+       <section className='lg:ml-48 lg:mr-48 p-3 mt-12 mb-3' id="contact">
+        <div className='text-center'>
+            <h4 className='text-4xl font-bold mb-6'>Get In Touch</h4>
+            <div>
+                <p className='opacity-90 leading-relaxed'>Hello &#128400;, Nice to meet you here! <br></br> Send messages here. I'll do my best to reach back to you.</p> 
+                <button className='bg-outline py-3 px-3 rounded mt-3 hover:bg-green-500'><a  href="mailto:alisidaniel@gmail.com">Say Hello!</a></button>
+            </div>
+        </div>
        </section>
 
         <div className="">

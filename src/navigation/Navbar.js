@@ -4,8 +4,11 @@ import { links } from '../constants/navlinks';
 
 const Navbar = () => {
     const hanldeDrawer = () => {
-        document.querySelector('#menu').style.display = 'none';
-        document.querySelector('#toggle-menu').checked = false;
+         const {height, width} = window.screen;
+         if (width <= 470) {
+            document.querySelector('#menu').style.display = 'none';
+            document.querySelector('#toggle-menu').checked = false;
+         }
     }
     const handleDrawer2 = () => {
         const state = document.querySelector('#toggle-menu').checked;
